@@ -15,15 +15,19 @@ string rtrim(const string &);
  */
 
 string caesarCipher(string &s, int &k) {
-    if(k>26){
-    int i=1;
-    while(i){
-        k-=26*i;
-        if(k<=26&&k>=0) break;
-        i++;
-    }
+    // if(k>26){
+    // int i=1;
+    // while(i){
+    //     k-=26*i;
+    //     if(k<=26&&k>=0) break;
+    //     i++;
+    // }
     
-    }
+    // }
+
+    while(k>26) k-=26;
+
+    
     for( int i=0; i<s.size(); i++)
     {
         if((s[i]>='a' && s[i]+k<='z' ) || (s[i]>='A' && s[i]+k<='Z')) s[i] = s[i] + k;
