@@ -5,3 +5,6 @@
 #### [Bài 4](https://docs.google.com/document/d/1UiLxGEGIyh7gHZAj_uas-VHECS7Ee4BAl8NXbLBfCQM/edit)
 #### [Bài 5](https://docs.google.com/document/d/1KBW0b_97pi9BYLgYKsRNVQCaBxpwFzb21NWbhC1SIJU/edit)
 #### [Bài 6](https://docs.google.com/document/d/1_Yx3PCUwNEZXfo7r7xCKzra2DcO08Ul7HuYLnO_rf04/edit)
+#### [Bài 7](https://docs.google.com/document/d/1n28AtDkpqfLaw-UfHMHkFIQQn6_vvz2bT4BU73z3u1E/edit)
+#### [Bài 8](https://docs.google.com/document/d/1vLAX-s0voUblmiYlTwGtb8fAz1K1hv7zAyvqKxz007c/edit)
+#### [Bài 9](https://docs.google.com/document/d/1H1PDAzsHsypuw4_cJZXfhx-XGQlAvG6ToectWhqfIAU/edit)
