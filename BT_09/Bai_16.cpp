@@ -87,3 +87,55 @@ vector<string> split(const string &str) {
 
     return tokens;
 }
+#include<bits/stdc++.h>
+
+using namespace std;
+
+string loc( string s ){
+    string a;
+    for( int i=0; i<s.size(); i++){
+        if( s[i] >= 'a' && s[i] <= 'z' || s[i] >= 'A' && s[i] <= 'Z' || s[i] == ' ') a+=s[i];
+    }
+    return a;
+}
+
+string lower( string s){
+    string w = "";
+    for( int i=0; i<s.size(); i++){
+        w += tolower(s[i]);
+    }
+    return w;
+}
+
+int main(){
+    int T; cin >> T;
+    while( T-- ){
+        string s;
+        cin.ignore();
+        getline(cin, s);
+        s = loc(s);
+        stringstream ss(s);
+        string word;
+        vector<string> v;
+        while( ss >> word ){
+            word = lower(word);
+            if(word[0] >= 'a' && word[0] <= 'z'){
+                word[0] = word[0] - 'a' +'A';
+            }
+            word = word[0] + word.substr(1);
+            v.push_back(word);
+        }
+        for( int i=0; i<v.size(); i++){
+            cout << v[i] << " ";
+        }
+        cout << endl;
+        cout << lower(v[v.size()-1]);
+        for( int i =0; i<v.size()-1; i++){
+            // string b = v[i][0];
+            // cout << lower(b);
+            cout << (char)tolower(v[i][0]);
+        }
+        cout << "@gmail.com";
+    }
+    return 0;
+}
